@@ -1,6 +1,5 @@
 # Real-time-video-enabled-networkingSystem
 real-time video-enabled networking system
-- Technical decisions and alternatives considered
 - Backend and frontend communication structure
 - Live debugging and validation strategies
 - Real-time session management and matching logic
