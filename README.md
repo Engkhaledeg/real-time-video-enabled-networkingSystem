@@ -38,47 +38,23 @@ speed-connect-demo/
 ### 🔧 Backend
 
 1. Navigate to backend:
-   ```bash
-   cd backend
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Create a .env file:
-
-ini
-Copy
-Edit
+ - cd backend
+- Install dependencie:
+- npm install
+- Create a .env file:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-Start backend server:
 
-bash
-Copy
-Edit
+* Start backend server:
 npm start
 ➤ Server runs at: http://localhost:4000
 
 🎨 Frontend
-Navigate to frontend:
-
-bash
-Copy
-Edit
+Navigate to frontent: 
 cd frontend
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 Start React app:
-
-bash
-Copy
-Edit
 npm start
 ➤ Opens in browser: http://localhost:3000
 
@@ -97,15 +73,10 @@ npm start
 
 ✅ Automatic cleanup of expired/inactive sessions
 
-📌 Usage
+📌 Usage:
+----------
 Log in with a username and comma-separated interests (e.g. art,tech,sports)
-
 You’ll be matched with someone who shares at least one interest
-
 Chat in real-time with your match
-
 A countdown timer tracks the remaining session time
-
 When the session ends, users can leave or wait to be re-matched
-
-
