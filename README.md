@@ -5,33 +5,33 @@ real-time video-enabled networking system
 - Live debugging and validation strategies
 - Real-time session management and matching logic
 # Speed Connect Demo
+## 📁 Folder Structure
 
+```plaintext
 speed-connect-demo/
--│ 
--├── backend/
--│ ├── .env
--│ ├── index.js
--│ ├── package.json
--│ ├── middleware/
--│ │ └── auth.js
--│ ├── models/
--│ │ └── ChatMessage.js
--│ ├── store/
--│ │ └── sessionStore.js
--│ └── node_modules/ # auto-created by npm install
--│
--├── frontend/
--│ ├── package.json
--│ ├── public/
--│ │ └── index.html
--│ ├── src/
--│ │ ├── index.js
--│ │ └── App.js
--│ └── node_modules/ # auto-created by npm install
+│
+├── backend/
+│   ├── .env
+│   ├── index.js
+│   ├── package.json
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── models/
+│   │   └── ChatMessage.js
+│   ├── store/
+│   │   └── sessionStore.js
+│   └── node_modules/           # created by `npm install`
+│
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── index.js
+│   │   └── App.js
+│   └── node_modules/           # created by `npm install`
 │
 └── README.md
-\
----
 
 ## 🛠️ Setup Instructions
 
