@@ -1,4 +1,4 @@
-# real-time-video-enabled-networkingSystem
+# Real-time-video-enabled-networkingSystem
 real-time video-enabled networking system
 # Speed Connect Demo
 
@@ -114,4 +114,27 @@ Authentication is simplified with mocked JWT tokens.
 
 UI is minimal and functional, not styled for production.
 
+
+# 🚀 Speed Connect Demo
+
+A minimal real-time networking app for interest-based pairing and live chat.
+
+## 📦 Tech Stack
+
+**Backend:**
+- Node.js
+- Express.js
+- Socket.io
+- MongoDB (for chat persistence)
+- In-memory mock of Redis (for session storage)
+- JWT (mocked)
+
+**Frontend:**
+- React
+- WebSocket connection to backend
+- Minimal, functional UI with live text chat and countdown timer
+
+---
+
+## 📁 Folder Structure
 
