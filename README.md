@@ -7,27 +7,27 @@ real-time video-enabled networking system
 # Speed Connect Demo
 
 speed-connect-demo/
-│ 
-├── backend/
-│ ├── .env
-│ ├── index.js
-│ ├── package.json
-│ ├── middleware/
-│ │ └── auth.js
-│ ├── models/
-│ │ └── ChatMessage.js
-│ ├── store/
-│ │ └── sessionStore.js
-│ └── node_modules/ # auto-created by npm install
-│
-├── frontend/
-│ ├── package.json
-│ ├── public/
-│ │ └── index.html
-│ ├── src/
-│ │ ├── index.js
-│ │ └── App.js
-│ └── node_modules/ # auto-created by npm install
+-│ 
+-├── backend/
+-│ ├── .env
+-│ ├── index.js
+-│ ├── package.json
+-│ ├── middleware/
+-│ │ └── auth.js
+-│ ├── models/
+-│ │ └── ChatMessage.js
+-│ ├── store/
+-│ │ └── sessionStore.js
+-│ └── node_modules/ # auto-created by npm install
+-│
+-├── frontend/
+-│ ├── package.json
+-│ ├── public/
+-│ │ └── index.html
+-│ ├── src/
+-│ │ ├── index.js
+-│ │ └── App.js
+-│ └── node_modules/ # auto-created by npm install
 │
 └── README.md
 \
